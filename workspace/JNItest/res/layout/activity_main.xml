@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jnitest.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="调用C++求解幂数" />
+    
+    <EditText 
+        android:id="@+id/editText01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="参数1"
+        />
+    
+        <EditText 
+        android:id="@+id/editText02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="参数2"
+        />   
+        
+    <EditText 
+        android:id="@+id/editText03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="结果"
+        />
+    
+    <Button 
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算a^b数"       
+        />
+    
+</LinearLayout>
